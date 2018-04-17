@@ -1,10 +1,10 @@
 {% set provider= "Triton" %}
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 
 {% set name = "terraform-provider-" + provider.lower() %}
 {% set x4_plugin = name + '_v' + version + "_x4" %}
 
-{% set sha256 = "3727c82e1a894fdde9fb037c0c5d1f4e6822f3fcc14c31949991d4526837bdc6" %}
+{% set sha256 = "c57240de0e494fe6e465b478b9db95a41dbb86fdd0b5fdc669d6370658ad8e3b" %}
 {% set sha256_win32 = "872ca6ebfc5b3ec0f0e80c4bd114f6378dc1fac4b7c84c8d421e04615415751d" %}
 {% set sha256_win64 = "2da00239f3846004e6af68d635addb57073bdb07412c9890049de65aae662ab5" %}
 
