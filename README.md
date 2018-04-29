@@ -14,14 +14,16 @@ Summary: The Terraform Triton provider
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/terraform-provider-triton-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/terraform-provider-triton-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/terraform-provider-triton-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/terraform-provider-triton-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/terraform-provider-triton-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/terraform-provider-triton-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/terraform-provider-triton-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/terraform-provider-triton-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/terraform-provider-triton-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/terraform-provider-triton-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/terraform-provider-triton-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/terraform-provider-triton-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-triton/badges/version.svg)](https://anaconda.org/conda-forge/terraform-provider-triton)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/terraform-provider-triton/badges/downloads.svg)](https://anaconda.org/conda-forge/terraform-provider-triton)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-terraform--provider--triton-green.svg)](https://anaconda.org/conda-forge/terraform-provider-triton) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/terraform-provider-triton.svg)](https://anaconda.org/conda-forge/terraform-provider-triton) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/terraform-provider-triton.svg)](https://anaconda.org/conda-forge/terraform-provider-triton) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/terraform-provider-triton.svg)](https://anaconda.org/conda-forge/terraform-provider-triton) |
 
 Installing terraform-provider-triton
 ====================================
