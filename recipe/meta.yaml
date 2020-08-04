@@ -1,6 +1,6 @@
 {% set provider = "Triton" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 {% set name = goname.split('/')[-1] %}
 {% set pkg_src = ('gopath/src/'+goname).replace("/",os.sep) %}
@@ -14,7 +14,7 @@ package:
 source:
   - folder: {{ pkg_src }}
     url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-    sha256: 24aa9ccab1bb8dc2f634d9169942ddeaee2a62dc89e5f805242b0645e4a4476f
+    sha256: 91ceb3698a2ff04bfd5b4fd3eff77065af8b8e01051127653ef4c313b33ac90e
 
 build:
   number: 0
